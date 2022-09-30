@@ -1,0 +1,41 @@
+[
+  {
+    "foto": "foto.png",
+    "nome": "Nimue",
+    "raca": "SDR",
+    "idade": "2 anos e 1 mês",
+    "sexo": "fêmea",
+    "peso": 14.5,
+    "porte": "M",
+    "vacinado": true,
+    "castrado": true,
+    "historico": "Nimue foi encontrada na rua em um dia chuvoso e levada para o abrigo pela pessoa que encontrou-a pois essa pessoa já tinha um cachorro e não poderia adotar mais um. A nimue é uma cachorrinha super docil, brincalhosa e gosta de estar sempre juntinha aos tutores.",
+    "adotado": true
+  },
+  {
+    "foto": "foto.png",
+    "nome": "Bojji",
+    "raca": "SDR",
+    "idade": "7 meses",
+    "sexo": "fêmea",
+    "peso": 15,
+    "porte": "M",
+    "vacinado": true,
+    "castrado": true,
+    "historico": "A Bojji nasceu no abrigo lokking for a paw, já foi castrada, vermigfugada e tomou as primeiras doses das vacinas. É muito companheira, brincalhona e tem muita energia como qualquer filhote.",
+    "adotado": false
+  },
+  {
+    "foto": "foto.png",
+    "nome": "Sukuna",
+    "raca": "Beagle",
+    "idade": "3 meses",
+    "sexo": "macho",
+    "peso": 3,
+    "porte": "P",
+    "vacinado": false,
+    "castrado": false,
+    "historico": "O Sukuna foi entregue para o abrigo por seu antigo tutor que o comprou em um pet shop mas a família não se adaptou com um cachorrinho da casa. É um filhotinho com muita energia, se da bem com gatos e gosta de ficar junto aos tutores.",
+    "adotado": true
+  }
+]
