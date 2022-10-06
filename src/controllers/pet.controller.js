@@ -23,54 +23,17 @@ const findByIdPetController = async (req, res) => {
 
 const createPetController = async (req, res) => {
   const pet = req.body;
-
-  if (
-    !pet.foto ||
-    !pet.nome ||
-    !pet.raca ||
-    !pet.idade ||
-    !pet.sexo ||
-    !pet.peso ||
-    !pet.porte ||
-    !pet.vacinado ||
-    !pet.castrado ||
-    !pet.historico ||
-    !pet.adotado
-  ) {
-    return res.status(400).send({
-      message: "Envie todos os campos de informação relacionados ao pet.",
-    });
-  }
-
   const newPet = await petsService.createPetService(pet);
   res.status(201).send(newPet);
+  console.log(newPet);
 };
 
 const updatePetController = async (req, res) => {
   const idParam = req.params.id;
   const editPet = req.body;
-
-  if (
-    !editPet.foto ||
-    !editPet.nome ||
-    !editPet.raca ||
-    !editPet.idade ||
-    !editPet.sexo ||
-    !editPet.peso ||
-    !editPet.porte ||
-    !editPet.vacinado ||
-    !editPet.castrado ||
-    !editPet.historico ||
-    !editPet.adotado
-  ) {
-    return res.status(404).send({
-      message:
-        "Envie todos os campos de informação relacionadas ao pet que será editado!",
-    });
-  }
-
   const updatedPet = await petsService.updatePetService(idParam, editPet);
   res.send(updatedPet);
+  console.log("updatedPet:", updatedPet);
 };
 
 const deletePetController = async (req, res) => {

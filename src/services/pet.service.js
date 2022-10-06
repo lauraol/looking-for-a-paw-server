@@ -21,7 +21,7 @@ const updatePetService = async (idParam, editPet) => {
 };
 
 const deletePetService = async (idParam) => {
-  return await Pets.findByIdAndDelete;
+  return await Pets.findByIdAndDelete(idParam); //primeiro erro: esqueci de passar o argumento para a função
 };
 
 module.exports = {
