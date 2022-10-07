@@ -20,6 +20,7 @@
   "homepage": "https://github.com/lauraol/looking-for-a-paw-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "mongoose": "^6.6.2",
     "swagger-ui-express": "^4.5.0"
