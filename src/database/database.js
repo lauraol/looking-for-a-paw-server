@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 
 function connectToDatabase() {
+  console.log("Conectando ao banco de dados, aguarde...");
   mongoose
-    .connect("mongodb://localhost:27017/pets-db", {
+    .connect(String(process.env.URI_DATABASE), {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
